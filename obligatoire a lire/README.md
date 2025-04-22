@@ -82,4 +82,4 @@ Licence finale à définir selon le modèle communautaire retenu.
 Sea of Rank est porté par une équipe de passionnés de Sea of Thieves, avec une vision claire :  
 > **Créer une vraie scène PvP compétitive autour d’un classement automatisé, transparent, et mérité.**
 
----
+---.
