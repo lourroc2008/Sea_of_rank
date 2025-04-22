@@ -1,0 +1,9 @@
+opencv-python
+pyautogui
+numpy
+pillow
+ultralytics
+ffmpeg-python
+tk
+discord.py
+requests
