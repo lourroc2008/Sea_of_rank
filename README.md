@@ -1,59 +1,85 @@
-# Introduction to GitHub
+# ⚓ Sea of Rank
 
-<!-- ![](https://github.com/lourroc2008/Test-/actions/workflows/0-start-exercise.yml/badge.svg) -->
-![](https://github.com/lourroc2008/Test-/actions/workflows/1-create-a-branch.yml/badge.svg)
-![](https://github.com/lourroc2008/Test-/actions/workflows/2-commit-a-file.yml/badge.svg)
-![](https://github.com/lourroc2008/Test-/actions/workflows/3-open-a-pull-request.yml/badge.svg)
-![](https://github.com/lourroc2008/Test-/actions/workflows/4-merge-your-pull-request.yml/badge.svg)
+**Sea of Rank** est un logiciel gratuit en développement, destiné à créer le **premier système de classement PvP automatisé** pour *Sea of Thieves*.
 
-_Get started using GitHub in less than an hour._
+Il détectera automatiquement les **victoires et défaites** des joueurs grâce à une technologie d’analyse visuelle, puis synchronisera les résultats avec un **classement en ligne connecté à Discord**.
 
-## Welcome
-
-People use GitHub to build some of the most advanced technologies in the world. Whether you’re visualizing data or building a new game, there’s a whole community and set of tools on GitHub that can help you do it even better. GitHub Skills’ “Introduction to GitHub” exercise guides you through everything you need to start contributing in less than an hour.
-
-- **Who is this for**: New developers, new GitHub users, and students.
-- **What you'll learn**: We'll introduce repositories, branches, commits, and pull requests.
-- **What you'll build**: We'll make a short Markdown file you can use as your [profile README](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme).
-- **Prerequisites**: None. This exercise is a great introduction for your first day on GitHub.
-- **How long**: This exercise takes less than one hour to complete.
-
-In this exercise, you will:
-
-1. Create a branch
-2. Commit a file
-3. Open a pull request
-4. Merge your pull request
-
-### How to start this exercise
-
-1. Right-click **Copy Exercise** and open the link in a new tab.
-
-   <a id="copy-exercise">
-      <img src="https://img.shields.io/badge/📠_Copy_Exercise-AAA" height="25pt"/>
-   </a>
-
-2. In the new tab, most of the prompts will automatically fill in for you.
-   - For owner, choose your personal account or an organization to host the repository.
-   - We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.chttps://github.com/lourroc2008/Test-/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-   - Scroll down and click the **Create repository** button at the bottom of the form.
-
-3. After your new repository is created, wait about 20 seconds for the exercise to be prepared and buttons updated. You will continue working from your copy of the exercise.
-   - The **Copy Exercise** button will deactivate, changing to gray.
-   - The **Start Exercise** button will activate, changing to green.
-   - You will likely need to refresh the page.
-
-4. Click **Start Exercise**. Follow the step-by-step instructions and feedback will be provided as you progress.
-
-   <a id="start-exercise" href="https://github.com/lourroc2008/Test-/issues/1">
-      <img src="https://img.shields.io/badge/🚀_Start_Exercise-008000" height="25pt"/>
-   </a>
-
-> [!IMPORTANT]
-> The **Start Exercise** button will activate after copying the repository. You will probably need to refresh the page.
+> 🧠 Tu joues. Il scanne. Tu te classes.
 
 ---
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/introduction-to-github) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+## 🧩 Fonctionnalités prévues
 
-&copy; 2024 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+- 🎯 Détection passive des écrans de victoire/défaite (par flux vidéo)
+- 📊 Classement personnalisé synchronisé en temps réel via bot Discord
+- 🧠 Détection basée sur un modèle **YOLOv8**
+- 🖥️ Overlay et interface fluide pour visualiser son rang en jeu
+- 🏆 Tournois à venir avec **cash prize**
+- 🔁 Reconnaissance des adversaires récurrents
+
+---
+
+## 🚀 État du projet
+
+- ✅ Concept validé
+- ✅ MVP en cours (detection + interface)
+- 🧪 Tests communautaires bientôt ouverts
+- 🧠 Modèle YOLO à entraîner
+- 🛠️ Recherche de contributeurs (voir plus bas)
+
+---
+
+## 🧑‍💻 Installation (prochainement)
+
+> L'installation sera possible via exécutable `.exe` ou `.py`, avec une version portable prévue.  
+Un système de mise à jour automatique est également en réflexion.
+
+---
+
+## 📌 Prérequis techniques (MVP)
+
+- Python 3.9+
+- `opencv-python`
+- `torch` + `ultralytics` (YOLOv8)
+- `ffmpeg`
+- `discord.py` *(pour bot Discord si dév activé)*
+
+---
+
+## 🤝 Contribuer
+
+Nous recherchons actuellement :
+
+- 🧑‍💻 **Développeurs** (Python, IA, GUI, Discord bot)
+- 🧪 **Testeurs PvP**
+- 🎨 (Facultatif) UX / UI Designer
+- 🔐 Toute personne motivée à soutenir un projet sérieux et communautaire
+
+> **Aucune rémunération immédiate**, mais **rémunération prévue** en cas de succès commercial (cash prize, version premium, sponsors, etc.).  
+> Contributions reconnues publiquement + % équitables discutés en privé.
+
+📩 Pour postuler :  
+- Rejoignez notre Discord : [lien]  
+- Ouvrez un ticket ou contactez `lourroc2008`
+
+---
+
+## 📸 Captures & Aperçus
+
+> *(Screenshots, vidéos et GIFs du prototype à venir ici)*
+
+---
+
+## 📜 Licence
+
+Projet open-source temporairement privé (code partiellement verrouillé durant la phase de construction).  
+Licence finale à définir selon le modèle communautaire retenu.
+
+---
+
+## 🌊 À propos
+
+Sea of Rank est porté par une équipe de passionnés de Sea of Thieves, avec une vision claire :  
+> **Créer une vraie scène PvP compétitive autour d’un classement automatisé, transparent, et mérité.**
+
+---
